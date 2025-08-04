@@ -28,8 +28,8 @@ function scr_wait(duration) {
     if !is_struct(variable_instance_get(id, "_scw_wait_timer")) {
         _scw_waiting = duration;
         _scw_wait_timer = new obj_wait_timer(duration);
-        with (obj_wait_debug)
-            timers[? other.id] = other._scw_wait_timer;
+        scr_wait_cb_on_timer_creation();
+		return false;
     } else if _scw_wait_timer.duration != duration
         return false;
 

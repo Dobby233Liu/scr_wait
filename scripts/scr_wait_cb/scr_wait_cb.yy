@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_wait_cb",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_wait_cb",
+  "parent":{
+    "name":"scr_wait",
+    "path":"scr_wait.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

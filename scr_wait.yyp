@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"scr_wait",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -12,11 +12,12 @@
   "Folders":[
     {"$GMFolder":"","%Name":"test","folderPath":"folders/test.yy","name":"test","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"scr_wait",
   "resources":[
@@ -24,6 +25,7 @@
     {"id":{"name":"obj_wait_debug","path":"objects/obj_wait_debug/obj_wait_debug.yy",},},
     {"id":{"name":"obj_wait_test","path":"objects/obj_wait_test/obj_wait_test.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"scr_wait_cb","path":"scripts/scr_wait_cb/scr_wait_cb.yy",},},
     {"id":{"name":"scr_wait","path":"scripts/scr_wait/scr_wait.yy",},},
   ],
   "resourceType":"GMProject",
